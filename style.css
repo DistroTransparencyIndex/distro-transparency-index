@@ -78,3 +78,38 @@ footer {
     bottom: 0;
     width: 100%;
 }
+.legend {
+    background-color: #2A2A2A;
+    border: 1px solid #3A3A3A;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 30px;
+    font-size: 0.9em;
+    line-height: 1.6;
+}
+
+.legend h3 {
+    margin-top: 0;
+    color: #4A9FFF;
+}
+
+.legend h4 {
+    margin-top: 15px;
+    margin-bottom: 5px;
+    color: #6AAFFF;
+}
+
+.legend p {
+    margin-bottom: 10px;
+}
+
+.legend span {
+    margin-right: 10px;
+    white-space: nowrap;
+}
+
+@media (max-width: 768px) {
+    .legend {
+        font-size: 0.8em;
+    }
+}
