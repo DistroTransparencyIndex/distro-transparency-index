@@ -18,13 +18,23 @@ header .logo {
     margin-right: 10px;
 }
 
+@font-face {
+    font-family: 'Abyssinia';
+    src: url('path/to/abyssinia.woff2') format('woff2'),
+         url('path/to/abyssinia.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 h1 {
+    font-family: 'Abyssinia', Arial, sans-serif;
     color: #E0E0E0;
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 0;
 }
+
 
 h1 img {
     margin-right: 15px;
@@ -193,3 +203,4 @@ main li {
     color: #e8491d;
     font-weight: bold;
 }
+
