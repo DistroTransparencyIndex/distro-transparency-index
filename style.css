@@ -69,12 +69,6 @@ h2 {
     text-align: center;
 }
 
-.ranking-container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-}
-
 .ranking-list {
     list-style-position: inside;
     padding: 0;
@@ -89,7 +83,6 @@ h2 {
 }
 
 .ranking-list a {
-    color: #4A9FFF;
     text-decoration: none;
 }
 
@@ -97,6 +90,20 @@ h2 {
     text-decoration: underline;
 }
 
+/* Links per distribuzioni con punteggio 80+ */
+.ranking-list a.high-score {
+    color: #4CAF50; /* Verde */
+}
+
+/* Links per distribuzioni con punteggio tra 50 e 79 */
+.ranking-list a.medium-score {
+    color: #FFC107; /* Giallo */
+}
+
+/* Links per distribuzioni con punteggio sotto 50 */
+.ranking-list a.low-score {
+    color: #F44336; /* Rosso */
+}
 @media (max-width: 600px) {
     .ranking-list li {
         white-space: normal;
