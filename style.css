@@ -18,12 +18,13 @@ header .logo {
     margin-right: 10px;
 }
 
+/* abyssinica-sil-regular - latin */
 @font-face {
-    font-family: 'Abyssinia';
-    src: url('path/to/abyssinia.woff2') format('woff2'),
-         url('path/to/abyssinia.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Abyssinica SIL';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/abyssinica-sil-v5-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 
 h1 {
