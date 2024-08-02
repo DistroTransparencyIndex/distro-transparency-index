@@ -144,11 +144,12 @@
             </ul>
             <p>However, we recognize that some degree of centralization can be beneficial for efficient decision-making. Our scoring system aims to balance these considerations, rewarding distributions that maintain transparency and community involvement even with more centralized structures.</p>
         </section>
-        <section id="responsiveness">
-    <h3>Responsiveness to Transparency Requests</h3>
-    <p>To assess the active commitment of distributions to transparency, we have introduced a new category that measures their responsiveness to direct requests for information.</p>
-    
-    <h4>Evaluation Criteria:</h4>
+ <h1>Responsiveness to Transparency Requests</h1>
+
+    <p>To assess the active commitment of distributions to transparency, we have introduced a category that measures their responsiveness to direct requests for information.</p>
+
+    <h2>Evaluation Criteria:</h2>
+
     <ol>
         <li>Response to request:
             <ul>
@@ -168,37 +169,46 @@
     </ol>
 
     <p>This category allows for adding up to 25 points to the total score or subtracting 15 points in case of no response, reflecting the importance we attribute to the openness and active collaboration of distributions in providing transparent information.</p>
-</section>
 
-<section id="scoring">
-    <h3>Score Calculation</h3>
-    <p>The total score of a distribution is calculated by summing the points obtained in all categories, including the new Responsiveness to Transparency Requests category.</p>
-    
+    <h2>80-Point Limit for Bonus Points</h2>
+
+    <p>To maintain fairness and prevent distributions with initially lower scores from unduly surpassing those that were already highly transparent, we've implemented an 80-point limit for distributions receiving bonus points from responsiveness:</p>
+
     <ul>
-        <li>Maximum possible score: 125 points (100 base points + 25 responsiveness points)</li>
-        <li>Minimum possible score: -15 points (in case of zero points in all categories and no response to information requests)</li>
+        <li>Distributions that score 80 points or higher in their initial evaluation are not sent additional information requests, as they have already demonstrated a high level of transparency.</li>
+        <li>Distributions receiving bonus points from responsiveness cannot exceed a final score of 80 points, regardless of their initial score plus bonus.</li>
+        <li>This limit ensures that responsive but initially less transparent distributions can significantly improve their standing without overtaking the most transparent projects.</li>
     </ul>
 
-    <p>To normalize the score on a 0-100 scale, we use the following formula:</p>
-    <pre>Normalized Score = (Total Points + 15) / 140 * 100</pre>
+    <h1>Score Calculation and Presentation</h1>
 
-    <p>This formula ensures that even distributions with the lowest possible score (-15) will have a normalized score of 0, while those achieving the maximum score (125) will have a normalized score of 100.</p>
+    <p>The total score of a distribution is calculated by summing the points obtained in all categories, including the Responsiveness to Transparency Requests category, subject to the 80-point limit for bonus recipients.</p>
 
-    <p>In our rankings and individual distribution pages, we display both the normalized score (out of 100) and the responsiveness score, if applicable. For example:</p>
-    <pre>DistroName 👥🤝🏦 82.35/100 🏛️🟢 💰🟢 💻🟢 ✉️+25</pre>
-    <p>Where ✉️+25 indicates a full positive response to our transparency request.</p>
-</section>
-        <section>
-            <h3>Scoring System</h3>
-            <p>Each distribution is scored out of a total of 34 or 36 points (depending on whether it's a rolling or non-rolling release). The final score is normalized to a 0-100 scale for easy comparison.</p>
-        </section>
-        <section>
-            <h3>Data Collection</h3>
-            <p>Our data is collected through thorough examination of public documents, community forums, code repositories, and direct communication with distribution maintainers when necessary.</p>
-        </section>
-        <section>
-            <h3>Updating and Revision</h3>
-            <p>The DTI is regularly updated to ensure its relevance and accuracy. We conduct full reviews of all distributions annually, with interim updates as significant changes occur.</p>
+    <ul>
+        <li>Maximum possible score without bonus: 100 points</li>
+        <li>Maximum possible score with bonus: 80 points</li>
+    </ul>
+
+    <h2>Score Presentation</h2>
+
+    <p>In our rankings and individual distribution pages, we display the scores as follows:</p>
+
+    <ul>
+        <li>For distributions without bonus:<br>
+            <code>DistroName 👥🤝🏦 82.35/100 🏛️🟢 💰🟢 💻🟢</code></li>
+        <li>For distributions with bonus:<br>
+            <code>*DistroName 👥🤝🏦 80(66.76)/100 🏛️🟢 💰🟡 💻🟢 ✉️🟢+25</code></li>
+    </ul>
+
+    <p>Where:</p>
+    <ul>
+        <li>The asterisk (*) indicates the distribution received a bonus.</li>
+        <li>80 is the capped final score.</li>
+        <li>(66.76) is the original score before the bonus.</li>
+        <li>✉️🟢+25 indicates a full positive response to our transparency request.</li>
+    </ul>
+
+    <p>This presentation method ensures transparency in our scoring process, clearly showing both the original and bonus-adjusted scores while maintaining the integrity of our evaluation system.</p>
         </section>
 <section id="scientific-references">
     <h3>Scientific References and Similar Models</h3>
