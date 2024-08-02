@@ -19,6 +19,17 @@ header .logo {
     margin-right: 10px;
 }
 
+/* Header link styles */
+header nav ul li a {
+    color: #FFFFFF; /* White links in header */
+    text-decoration: none; /* No underline in header */
+}
+
+header nav ul li a:hover {
+    color: #e8491d; /* Red color on hover in header */
+    text-decoration: underline; /* Underline on hover */
+}
+
 /* abyssinica-sil-regular - latin */
 @font-face {
     font-family: 'Abyssinica SIL';
@@ -60,13 +71,17 @@ nav ul li {
     margin: 0 15px;
 }
 
-/* Colore per tutti i link */
+/* General link styles */
 a:link,
-a:visited,
+a:visited {
+    color: #e8491d; /* Red color for all non-header links */
+    text-decoration: underline; /* Underline by default */
+}
+
 a:hover,
 a:active {
-  color: #e8491d; /* Imposta il colore rosso per tutte le varianti dei link */
-  text-decoration: none; /* Rimuovi la sottolineatura se non desiderata */
+    color: #e8491d; /* Red color on hover/click */
+    text-decoration: underline; /* Keep underline */
 }
 
 nav ul li a:hover {
