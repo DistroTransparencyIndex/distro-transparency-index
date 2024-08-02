@@ -21,11 +21,11 @@ header .logo {
 /* abyssinica-sil-regular - latin */
 @font-face {
   font-family: 'Abyssinica SIL';
-  src: url('font/AbyssinicaSIL-Regular.woff') format('truetype');
+  src: url('/font/AbyssinicaSIL-Regular.woff2') format('woff2'),
+       url('font/AbyssinicaSIL-Regular.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
-
 h1 {
     font-family: 'Abyssinia', Arial, sans-serif;
     color: #E0E0E0;
