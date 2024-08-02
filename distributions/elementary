@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>elementary OS - Distro Transparency Index</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <header>
+        <h1>
+            <img src="../images/dti-logo.png" alt="DTI Logo" width="48" height="48">
+            Distro Transparency Index (DTI)
+        </h1>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../methodology.html">Methodology</a></li>
+                <li><a href="../rankings.html">Rankings</a></li>
+                <li><a href="../about.html">About</a></li>
+                <li><a href="../constitution.html">Constitution</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>elementary OS</h2>
+        <p>DTI Score: 52.94/100 👥🟡 🏛️🔴 💰🟡 💻🟢 ✉️🟡</p>
+        
+        <section>
+            <h3>Detailed Evaluation</h3>
+            
+            <h4>1. Governance Transparency: 0/3</h4>
+            <ul>
+                <li>Availability of governance documents: Partial (0 points)</li>
+                <li>Detail of governance documents: Minimal (0 points)</li>
+                <li>Source: <a href="https://github.com/elementary">elementary OS GitHub</a></li>
+                <li>Note: While some information is available, there's no comprehensive governance document. The governance structure is not explicitly detailed in official documents.</li>
+            </ul>
+
+            <h4>2. Decision Making Transparency: 0/3</h4>
+            <ul>
+                <li>Documented decision-making process: Partial (0 points)</li>
+                <li>Accessibility of meeting minutes: Not Available (0 points)</li>
+                <li>Source: <a href="https://blog.elementary.io/">elementary Blog</a></li>
+                <li>Note: Decision-making processes are sometimes discussed in blog posts, but not formally documented. Formal meeting minutes are not publicly available.</li>
+            </ul>
+
+            <h4>3. Economic Transparency: 2/4</h4>
+            <ul>
+                <li>Publication of financial statements: Partial (1 point)</li>
+                <li>Detail of financial statements: Partial (1 point)</li>
+                <li>Source: <a href="https://elementary.io/open-source">elementary Transparency</a></li>
+                <li>Note: Some financial information is shared, but not comprehensive financial statements. Basic information about app sales and donations is provided, but not detailed financial reports.</li>
+            </ul>
+
+            <h4>4. Economic Accessibility: 2/4</h4>
+            <ul>
+                <li>Access to financial reports: Partial (1 point)</li>
+                <li>Ease of access: Moderate (1 point)</li>
+                <li>Note: Some financial information is freely accessible on the website. Basic financial information is available, but not prominently featured or comprehensive.</li>
+            </ul>
+
+            <h4>5. Source Code Accessibility: 4/4</h4>
+            <ul>
+                <li>Availability of source code: Public (2 points)</li>
+                <li>Ease of access to source code: Easy (2 points)</li>
+                <li>Source: <a href="https://github.com/elementary">elementary GitHub</a></li>
+                <li>Note: The source code is easily accessible through GitHub repositories.</li>
+            </ul>
+
+            <h4>6. Public Roadmap Availability: 0/3</h4>
+            <ul>
+                <li>Public roadmap: Partial (0 points)</li>
+                <li>Detail of roadmap: Minimal (0 points)</li>
+                <li>Source: <a href="https://github.com/elementary/os/releases">elementary OS Releases</a></li>
+                <li>Note: Release information is available, but there's no formal long-term roadmap. Long-term development goals are not clearly outlined.</li>
+            </ul>
+
+            <h4>7. Transparency in Code Review Processes: 3/3</h4>
+            <ul>
+                <li>Documentation of review processes: Yes (1 point)</li>
+                <li>Transparency of review processes: High (2 points)</li>
+                <li>Source: <a href="https://docs.elementary.io/develop/">elementary Developer Guide</a></li>
+                <li>Note: Code review processes are public and can be observed on GitHub pull requests.</li>
+            </ul>
+
+            <h4>8. Community Participation in Development: 4/4</h4>
+            <ul>
+                <li>Number of active contributors: High (2 points)</li>
+                <li>Accessibility to development processes: Easy (2 points)</li>
+                <li>Source: <a href="https://github.com/elementary/os/graphs/contributors">elementary GitHub Contributors</a></li>
+                <li>Note: elementary OS provides comprehensive documentation for contributors and encourages participation.</li>
+            </ul>
+
+            <h4>9. Impact of Governance Structure on Transparency: 3/6</h4>
+            <ul>
+                <li>Centralization of decision-making power: Partially centralized (1 point)</li>
+                <li>Control and balance mechanisms: Moderate (1 point)</li>
+                <li>Influence of commercial entities on governance: Moderate (1 point)</li>
+                <li>Note: While community input is valued, key decisions seem to be made by a core team. Some control mechanisms exist through open-source practices, but formal structures are not clearly defined. elementary, Inc. has influence, but the project maintains open-source principles.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h3>Concluding Analysis</h3>
+            <p>elementary OS demonstrates varying levels of transparency and accessibility across the evaluated areas:</p>
+            <h4>Strengths:</h4>
+            <ul>
+                <li>Excellent accessibility of source code.</li>
+                <li>High transparency in code review processes.</li>
+                <li>Strong community participation in development.</li>
+                <li>Some level of economic transparency, though limited.</li>
+            </ul>
+            <h4>Areas for improvement:</h4>
+            <ul>
+                <li>Formal governance documentation and transparency in decision-making processes.</li>
+                <li>More comprehensive economic transparency and accessibility of financial information.</li>
+                <li>Development of a public long-term roadmap.</li>
+                <li>Clearer definition of control and balance mechanisms in governance.</li>
+            </ul>
+            <p>The score of 52.94/100 reflects elementary OS's mixed approach to transparency and openness. While it performs exceptionally well in areas related to technical development and community involvement, there are significant areas for improvement, particularly in formal governance documentation and economic transparency.</p>
+            <p>It's important to note that elementary OS, as a project focused on design and user experience, may prioritize these aspects over formal governance structures. The project's emphasis on creating a cohesive and polished desktop environment may sometimes take precedence over governance formalities, which is reflected in this evaluation.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Distro Transparency Index</p>
+    </footer>
+</body>
+</html>
