@@ -19,15 +19,30 @@ header .logo {
     margin-right: 10px;
 }
 
-/* Header link styles */
-header nav ul li a {
-    color: #FFFFFF; /* White links in header */
-    text-decoration: none; /* No underline in header */
+/* General link styles */
+a:link,
+a:visited {
+    color: #e8491d; /* Red color for all non-header links */
+    text-decoration: underline; /* Underline by default */
 }
 
-header nav ul li a:hover {
-    color: #e8491d; /* Red color on hover in header */
-    text-decoration: underline; /* Underline on hover */
+a:hover,
+a:active {
+    color: #e8491d; /* Red color on hover/click */
+    text-decoration: underline; /* Keep underline */
+}
+
+/* Stile specifico per i link nella header */
+header nav ul li a:link,
+header nav ul li a:visited {
+    color: #FFFFFF; /* Forza il colore bianco per i link nella header */
+    text-decoration: none; /* Assicura nessuna sottolineatura */
+}
+
+header nav ul li a:hover,
+header nav ul li a:active {
+    color: #e8491d; /* Rosso al passaggio del mouse nella header */
+    text-decoration: underline; /* Sottolineatura al passaggio del mouse */
 }
 
 /* abyssinica-sil-regular - latin */
@@ -69,19 +84,6 @@ nav ul {
 
 nav ul li {
     margin: 0 15px;
-}
-
-/* General link styles */
-a:link,
-a:visited {
-    color: #e8491d; /* Red color for all non-header links */
-    text-decoration: underline; /* Underline by default */
-}
-
-a:hover,
-a:active {
-    color: #e8491d; /* Red color on hover/click */
-    text-decoration: underline; /* Keep underline */
 }
 
 nav ul li a:hover {
