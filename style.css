@@ -19,15 +19,17 @@ header .logo {
     margin-right: 10px;
 }
 
-/* Header link styles */
-header nav ul li a {
-    color: #FFFFFF; /* White links in header */
-    text-decoration: none; /* No underline in header */
+/* Header link styles - Specificity increased */
+header nav ul li a:link,
+header nav ul li a:visited {
+    color: #FFFFFF !important; /* Forza il colore bianco per i link nella header */
+    text-decoration: none; /* Assicura nessuna sottolineatura */
 }
 
-header nav ul li a:hover {
-    color: #e8491d; /* Red color on hover in header */
-    text-decoration: underline; /* Underline on hover */
+header nav ul li a:hover,
+header nav ul li a:active {
+    color: #e8491d; /* Rosso al passaggio del mouse nella header */
+    text-decoration: underline; /* Sottolineatura al passaggio del mouse */
 }
 
 /* abyssinica-sil-regular - latin */
