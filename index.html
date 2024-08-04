@@ -5,6 +5,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
     <link rel="stylesheet" href="style.css">
+    <style>
+    /* Scoped styles for the DTI table */
+        .dti-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 40px;
+        }
+        .dti-table th, .dti-table td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: center;
+        }
+        .dti-table th {
+            background-color: #333;
+            color: #ff0000; /* Red font color for legend */
+        }
+        .dti-table .legend th {
+            text-align: left;
+        }
+        .dti-table tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        .dti-table tr:hover {
+            background-color: #ddd;
+        }
+        .dti-table .header {
+            background-color: #222;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        .dti-table .footnote {
+            font-size: 12px;
+            color: #555;
+            text-align: center;
+            margin-top: 20px;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -40,38 +80,290 @@
     <p>Thank you for your interest in promoting transparency in the Linux community.</p>
 </div>
         
-<div class="ranking-container">
-  <ol class="ranking-list">
-      <li><a href="distributions/debian.html" class="high-score"> Debian 👥🗳️🤲 100.00/100 🏛️🟢 💰🟢 💻🟢</a></li>
-      <li><a href="distributions/gentoo.html" class="high-score"> Gentoo 👥🗳️🤲 97.22/100 🏛️🟢 💰🟢 💻🟢</a></li> 
-      <li><a href="distributions/freeBSD.html"class="high-score"> FreeBSD 🏛️📊🤲 97.06/100 🏛️🟢 💰🟢 💻🟢</a></li>
-      <li><a href="distributions/archlinux.html" class="high-score"> Arch Linux 👥📊🎗️ 94.44/100 🏛️🟢 💰🟢 💻🟢</a></li>
-      <li><a href="distributions/Fedora.html" class="high-score"> Fedora 🔀🤝🤝 88.24/100 🏛️🟢 💰🟢 💻🟢</a></li>
-      <li><a href="distributions/almalinux.html"class="high-score"> AlmaLinux 👥🤝🤲 88.24/100 🏛️🟢 💰🟢 💻🟢</a></li>
-      <li><a href="distributions/opensuse.html"class="high-score"> *openSUSE 🔀🗳️🏦 80 (66.76)/100 🏛️🟢 💰🟡 💻🟢 ✉️🟢+25 </a></li>
-      <li><a href="distributions/alpine.html" class="medium-score"> Alpine Linux 👥🤝🎗️ 73.53/100 🏛️🟢 💰🔴 💻🟢 ✉️❗️</a></li>
-      <li><a href="distributions/mageia.html" class="medium-score"> Mageia 👥🗳️🤲 70.59/100 🏛️🟢 💰🔴 💻🟢 ✉️❗️</a></li>
-      <li><a href="distributions/nixos.html" class="medium-score"> NixOS 🏛️🤝🏦 64.71/100 🏛️🟢 💰🔴 💻🟢 ✉️❗️</a></li>
-      <li><a href="distributions/mint.html" class="medium-score"> Linux Mint 🔀🤝🎗️ 64.71/100 👥🟡 🏛️🟡 💰🟢 💻🟢 ✉️❗️</li>
-      <li><a href="distributions/tuxedo.html" class="medium-score"> Tuxedo 🏢🤝🤝 55.88/100  🏛️🟡 💰🟡 💻🟢 ✉️❗️</a></li>
-      <li><a href="distributions/ubuntu.html" class="medium-score"> Ubuntu 🏢👑🤝 55.88/100  🏛️🟡 💰🔴 💻🟢 ✉️❗️</a></li>
-      <li><a href="distributions/kali.html" class="medium-score"> Kali OS🔀🤝 52.94/100 🏛️🔴 💰🔴 💻🟢 ✉️❗️</a></li>
-      <li><a href="distributions/void.html" class="medium-score">  Void Linux 👥🤝🎗️ 52.78/100 🏛️🔴 💰🔴 💻🟢✉️❗️</a></li>
-      <li><a href="distributions/endeavour.html" class="low-score">  EndeavourOS 👥🤝🎗️ 47.22/100 🏛️🔴 💰🔴 💻🟢✉️❗️</a></li>
-      <li><a href="distributions/elementary.html" class="low-score"> elementary OS 🔀🤝🔄 47.06/100 🏛️🔴 💰🔴 💻🟢 ✉️❗️</a></li>
-      <li><a href="distributions/nobara.html" class="low-score"> Nobara 👥🤝🎗️ 47.06/100 👥🟡 🏛️🔴 💰🔴 💻🟡 ✉️🟡</a></li>
-      <li>  Solus OS 👤👑🎗️ 35.29/100 🏛️🔴 💰🔴 💻🟡✉️❗️</li>
-       <li><a href="distributions/puppy.html" class="low-score"> 🎁Puppy Linux 33.33/100 🏛️🔴 💰🔴 💻🟡</a></li>
-      <li>  Manjaro 🔀🤝🔄 33.33/100 🏛️🔴 💰🔴 💻🟡✉️❗️</li>
-      <li>  MX Linux 🔀🤝🎗️ 32.35/100 🏛️🔴 💰🔴 💻🟡✉️❗️</li>
-      <li>  antiX 👥👑🎗️ 29.41/100 🏛️🔴 💰🔴 💻🟡✉️❗️</li>
-      <li>  🚫Pop!_OS 🏢👑🤝 26.47/100 🏛️🔴 💰🔴 💻🟡</li>
-      <li>  ArcoLinux 👤🤝🎗️ 26.47/100 🏛️🔴 💰🔴 💻🟡✉️❗️</li>
-      <li>  Vanilla OS 👤🤝🎗️ 23.53/100 🏛️🔴 💰🔴 💻🟡✉️❗️</li>
-      <li>  SparkyLinux 👤🤝🎗️ 20.59/100 🏛️🔴 💰🔴 💻🟡✉️❗️</li>
-      <li>  Linux Lite 👤👑🎗️ 14.71/100 🏛️🔴 💰🔴 💻🔴 ✉️❗️</li>
-      <li>  🚫Zorin OS 👤👑💼 5.88/100 🏛️🔴 💰🔴 💻🔴 </li>
-  </ol>
+<div class="header dti-table">Distro Transparency Index (DTI)</div>
+
+    <!-- Legend Section -->
+    <table class="legend dti-table">
+        <tr>
+            <th>Governance Model</th>
+            <th>Financial Transparency</th>
+            <th>Development Transparency</th>
+            <th>Communication Transparency</th>
+        </tr>
+        <tr>
+            <td><strong>CD</strong> - Community-Driven</td>
+            <td><strong>E</strong> - Excellent</td>
+            <td><strong>OS</strong> - Open Source</td>
+            <td><strong>E</strong> - Excellent</td>
+        </tr>
+        <tr>
+            <td><strong>FS</strong> - Foundation-Supported</td>
+            <td><strong>G</strong> - Good</td>
+            <td><strong>PO</strong> - Partially Open</td>
+            <td><strong>G</strong> - Good</td>
+        </tr>
+        <tr>
+            <td><strong>CC</strong> - Corporate-Controlled</td>
+            <td><strong>P</strong> - Poor</td>
+            <td><strong>CS</strong> - Closed Source</td>
+            <td><strong>P</strong> - Poor</td>
+        </tr>
+        <tr>
+            <td><strong>MG</strong> - Mixed Governance</td>
+        </tr>
+    </table>
+
+    <!-- Main DTI Table -->
+    <table class="dti-table">
+        <thead>
+            <tr>
+                <th>Distribution</th>
+                <th>Score</th>
+                <th>Governance Model</th>
+                <th>Financial Transparency</th>
+                <th>Development Transparency</th>
+                <th>Communication Transparency</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Debian</td>
+                <td>100.00</td>
+                <td>CD</td>
+                <td>E</td>
+                <td>OS</td>
+                <td>E</td>
+            </tr>
+            <tr>
+                <td>Gentoo</td>
+                <td>97.22</td>
+                <td>CD</td>
+                <td>E</td>
+                <td>OS</td>
+                <td>E</td>
+            </tr>
+            <tr>
+                <td>FreeBSD</td>
+                <td>97.06</td>
+                <td>FS</td>
+                <td>E</td>
+                <td>OS</td>
+                <td>E</td>
+            </tr>
+            <tr>
+                <td>Arch Linux</td>
+                <td>94.44</td>
+                <td>CD</td>
+                <td>E</td>
+                <td>OS</td>
+                <td>E</td>
+            </tr>
+            <tr>
+                <td>Fedora</td>
+                <td>88.24</td>
+                <td>FS</td>
+                <td>E</td>
+                <td>OS</td>
+                <td>E</td>
+            </tr>
+            <tr>
+                <td>AlmaLinux</td>
+                <td>88.24</td>
+                <td>FS</td>
+                <td>E</td>
+                <td>OS</td>
+                <td>E</td>
+            </tr>
+            <tr>
+                <td>openSUSE</td>
+                <td>80 (66.76)</td>
+                <td>MG</td>
+                <td>G</td>
+                <td>OS</td>
+                <td>E</td>
+            </tr>
+            <tr>
+                <td>Alpine Linux</td>
+                <td>73.53</td>
+                <td>CD</td>
+                <td>P</td>
+                <td>OS</td>
+                <td>E</td>
+            </tr>
+            <tr>
+                <td>Mageia</td>
+                <td>70.59</td>
+                <td>CD</td>
+                <td>P</td>
+                <td>OS</td>
+                <td>E</td>
+            </tr>
+            <tr>
+                <td>NixOS</td>
+                <td>64.71</td>
+                <td>FS</td>
+                <td>P</td>
+                <td>OS</td>
+                <td>E</td>
+            </tr>
+            <tr>
+                <td>Linux Mint</td>
+                <td>64.71</td>
+                <td>MG</td>
+                <td>E</td>
+                <td>OS</td>
+                <td>G</td>
+            </tr>
+            <tr>
+                <td>Tuxedo</td>
+                <td>55.88</td>
+                <td>CC</td>
+                <td>G</td>
+                <td>OS</td>
+                <td>P</td>
+            </tr>
+            <tr>
+                <td>Ubuntu</td>
+                <td>55.88</td>
+                <td>CC</td>
+                <td>P</td>
+                <td>OS</td>
+                <td>P</td>
+            </tr>
+            <tr>
+                <td>Kali OS</td>
+                <td>52.94</td>
+                <td>MG</td>
+                <td>P</td>
+                <td>OS</td>
+                <td>P</td>
+            </tr>
+            <tr>
+                <td>Void Linux</td>
+                <td>52.78</td>
+                <td>CD</td>
+                <td>P</td>
+                <td>OS</td>
+                <td>P</td>
+            </tr>
+            <tr>
+                <td>EndeavourOS</td>
+                <td>47.22</td>
+                <td>CD</td>
+                <td>P</td>
+                <td>OS</td>
+                <td>P</td>
+            </tr>
+            <tr>
+                <td>elementary OS</td>
+                <td>47.06</td>
+                <td>MG</td>
+                <td>P</td>
+                <td>OS</td>
+                <td>P</td>
+            </tr>
+            <tr>
+                <td>Nobara</td>
+                <td>47.06</td>
+                <td>MG</td>
+                <td>P</td>
+                <td>PO</td>
+                <td>G</td>
+            </tr>
+            <tr>
+                <td>Solus OS</td>
+                <td>35.29</td>
+                <td>CC</td>
+                <td>P</td>
+                <td>PO</td>
+                <td>P</td>
+            </tr>
+            <tr>
+                <td>Puppy Linux</td>
+                <td>33.33</td>
+                <td>CD</td>
+                <td>P</td>
+                <td>PO</td>
+                <td>P</td>
+            </tr>
+            <tr>
+                <td>Manjaro</td>
+                <td>33.33</td>
+                <td>MG</td>
+                <td>P</td>
+                <td>PO</td>
+                <td>P</td>
+            </tr>
+            <tr>
+                <td>MX Linux</td>
+                <td>32.35</td>
+                <td>MG</td>
+                <td>P</td>
+                <td>PO</td>
+                <td>P</td>
+            </tr>
+            <tr>
+                <td>antiX</td>
+                <td>29.41</td>
+                <td>CC</td>
+                <td>P</td>
+                <td>PO</td>
+                <td>P</td>
+            </tr>
+            <tr>
+                <td>Pop!_OS</td>
+                <td>26.47</td>
+                <td>CC</td>
+                <td>P</td>
+                <td>PO</td>
+                <td>P</td>
+            </tr>
+            <tr>
+                <td>ArcoLinux</td>
+                <td>26.47</td>
+                <td>MG</td>
+                <td>P</td>
+                <td>PO</td>
+                <td>P</td>
+            </tr>
+            <tr>
+                <td>Vanilla OS</td>
+                <td>23.53</td>
+                <td>MG</td>
+                <td>P</td>
+                <td>PO</td>
+                <td>P</td>
+            </tr>
+            <tr>
+                <td>SparkyLinux</td>
+                <td>20.59</td>
+                <td>MG</td>
+                <td>P</td>
+                <td>PO</td>
+                <td>P</td>
+            </tr>
+            <tr>
+                <td>Linux Lite</td>
+                <td>14.71</td>
+                <td>CC</td>
+                <td>P</td>
+                <td>CS</td>
+                <td>P</td>
+            </tr>
+            <tr>
+                <td>Zorin OS</td>
+                <td>5.88</td>
+                <td>CC</td>
+                <td>P</td>
+                <td>CS</td>
+                <td>P</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="footnote dti-table">
+        Note: Scores are based on evaluations of governance models, financial transparency, development transparency, and communication practices within each distribution.
+    </div>
 
 <div class="legend">
   <h3>Legend:</h3>
