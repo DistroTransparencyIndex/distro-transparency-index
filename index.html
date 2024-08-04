@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
     <link rel="stylesheet" href="style.css">
-    <style>
-    /* Scoped styles for the DTI table */
+  <style>
+        /* Scoped styles for the DTI table */
         .dti-table {
             width: 100%;
             border-collapse: collapse;
@@ -16,19 +16,22 @@
             border: 1px solid #ddd;
             padding: 8px;
             text-align: center;
+            color: #ffffff; /* White text for better contrast */
         }
         .dti-table th {
             background-color: #333;
             color: #ff0000; /* Red font color for legend */
+            font-weight: bold;
         }
         .dti-table .legend th {
             text-align: left;
+            background-color: #000;
         }
         .dti-table tr:nth-child(even) {
-            background-color: #f2f2f2;
+            background-color: #444; /* Slightly lighter black for alternate rows */
         }
         .dti-table tr:hover {
-            background-color: #ddd;
+            background-color: #555; /* Darker shade on hover for better interactivity */
         }
         .dti-table .header {
             background-color: #222;
@@ -43,6 +46,25 @@
             color: #555;
             text-align: center;
             margin-top: 20px;
+        }
+        /* Responsive adjustments */
+        @media (max-width: 768px) {
+            .dti-table th, .dti-table td {
+                font-size: 12px;
+                padding: 6px;
+            }
+            .dti-table .header {
+                font-size: 20px;
+            }
+        }
+        @media (max-width: 480px) {
+            .dti-table th, .dti-table td {
+                font-size: 10px;
+                padding: 4px;
+            }
+            .dti-table .header {
+                font-size: 18px;
+            }
         }
     </style>
 </head>
@@ -80,7 +102,7 @@
     <p>Thank you for your interest in promoting transparency in the Linux community.</p>
 </div>
         
-<div class="header dti-table">Distro Transparency Index (DTI)</div>
+ <div class="header dti-table">Distro Transparency Index (DTI)</div>
 
     <!-- Legend Section -->
     <table class="legend dti-table">
