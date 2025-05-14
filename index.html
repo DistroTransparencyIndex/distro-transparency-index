@@ -5,68 +5,70 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
     <link rel="stylesheet" href="style.css">
- <style>
-            /* Scoped styles for the DTI table */
-        .dti-table {
-            width: 100%;
-            border-collapse: collapse;
-            margin-bottom: 40px;
-        }
+<style>
+    /* Scoped styles for the DTI table */
+    .dti-table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-bottom: 40px;
+    }
+    .dti-table th, .dti-table td {
+        border: 1px solid #ccc;
+        padding: 8px;
+        text-align: center;
+        color: #000000; /* Testo nero */
+        background-color: #ffffff; /* Sfondo di default */
+    }
+    .dti-table th {
+        background-color: #e0e0e0; /* Grigio chiaro per intestazioni */
+        color: #e8491d; /* Rosso DTI */
+        font-weight: bold;
+    }
+    .dti-table .legend th {
+        text-align: left;
+        background-color: #f0f0f0; /* Legenda con fondo ancora più chiaro */
+    }
+    .dti-table tr:nth-child(even) {
+        background-color: #f9f9f9; /* Righe alternate chiare */
+    }
+    .dti-table tr:hover {
+        background-color: #f0f0f0; /* Hover leggero */
+    }
+    .dti-table .header {
+        background-color: #ffffff;
+        color: #e8491d;
+        text-align: center;
+        padding: 10px 0;
+        font-size: 24px;
+        margin-bottom: 20px;
+        font-weight: bold;
+    }
+    .dti-table .footnote {
+        font-size: 12px;
+        color: #555;
+        text-align: center;
+        margin-top: 20px;
+    }
+    /* Responsive adjustments */
+    @media (max-width: 768px) {
         .dti-table th, .dti-table td {
-            border: 1px solid #ddd;
-            padding: 8px;
-            text-align: center;
-            color: #ffffff; /* White text for better contrast */
-        }
-        .dti-table th {
-            background-color: #333;
-            color: #ff0000; /* Red font color for headers */
-            font-weight: bold;
-        }
-        .dti-table .legend th {
-            text-align: left;
-            background-color: #000;
-        }
-        .dti-table tr:nth-child(even) {
-            background-color: #444; /* Slightly lighter black for alternate rows */
-        }
-        .dti-table tr:hover {
-            background-color: #555; /* Darker shade on hover for better interactivity */
+            font-size: 12px;
+            padding: 6px;
         }
         .dti-table .header {
-            background-color: #222;
-            color: white;
-            text-align: center;
-            padding: 10px 0;
-            font-size: 24px;
-            margin-bottom: 20px;
+            font-size: 20px;
         }
-        .dti-table .footnote {
-            font-size: 12px;
-            color: #555;
-            text-align: center;
-            margin-top: 20px;
+    }
+    @media (max-width: 480px) {
+        .dti-table th, .dti-table td {
+            font-size: 10px;
+            padding: 4px;
         }
-        /* Responsive adjustments */
-        @media (max-width: 768px) {
-            .dti-table th, .dti-table td {
-                font-size: 12px;
-                padding: 6px;
-            }
-            .dti-table .header {
-                font-size: 20px;
-            }
+        .dti-table .header {
+            font-size: 18px;
         }
-        @media (max-width: 480px) {
-            .dti-table th, .dti-table td {
-                font-size: 10px;
-                padding: 4px;
-            }
-            .dti-table .header {
-                font-size: 18px;
-            }
-        }
-    </style>
+    }
+</style>
 </head>
 <body>
     <header>
