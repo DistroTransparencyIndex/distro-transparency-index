@@ -1,7 +1,7 @@
 body {
     background-color: #1a1a1a;
     color: #E0E0E0;
-    font-family: 'Abyssinia', Arial, sans-serif;
+    font-family: 'Abyssinica SIL', Arial, sans-serif;
     line-height: 1.6;
     margin: 0;
     padding: 0;
@@ -42,7 +42,7 @@ header nav ul li a:active {
 }
 
 h1 {
-    font-family: 'Abyssinia', Arial, sans-serif;
+    font-family: 'Abyssinica SIL', Arial, sans-serif;
     color: #E0E0E0;
     display: flex;
     align-items: center;
