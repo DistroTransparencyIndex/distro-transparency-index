@@ -11,28 +11,31 @@
         width: 100%;
         border-collapse: collapse;
         margin-bottom: 40px;
+        background-color: #ffffff; /* overlay generale bianco */
     }
     .dti-table th, .dti-table td {
         border: 1px solid #ccc;
         padding: 8px;
         text-align: center;
-        color: #000000; /* Testo nero */
-        background-color: #ffffff; /* Sfondo di default */
+        color: #000000; /* testo nero per tutte le celle */
     }
     .dti-table th {
-        background-color: #e0e0e0; /* Grigio chiaro per intestazioni */
-        color: #e8491d; /* Rosso DTI */
+        background-color: #000000; /* header nero */
+        color: #ffffff; /* testo bianco */
         font-weight: bold;
     }
-    .dti-table .legend th {
-        text-align: left;
-        background-color: #f0f0f0; /* Legenda con fondo ancora più chiaro */
-    }
     .dti-table tr:nth-child(even) {
-        background-color: #f9f9f9; /* Righe alternate chiare */
+        background-color: #f5f5f5; /* riga pari – grigio chiaro */
+    }
+    .dti-table tr:nth-child(odd) {
+        background-color: #eeeeee; /* riga dispari – altro grigio chiaro */
     }
     .dti-table tr:hover {
-        background-color: #f0f0f0; /* Hover leggero */
+        background-color: #e0e0e0; /* hover più evidente ma sobrio */
+    }
+    .dti-table td:first-child a {
+        color: #e8491d; /* link rossi per la colonna Distribution */
+        text-decoration: none;
     }
     .dti-table .header {
         background-color: #ffffff;
