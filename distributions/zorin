@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zorin OS - Distro Transparency Index (Final)</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <header>
+        <h1>
+            <img src="../images/dtilogo48.png" alt="DTI Logo" width="48" height="48">
+            Distro Transparency Index (DTI)
+        </h1>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../methodology.html">Methodology</a></li>
+                <li><a href="../about.html">About</a></li>
+                <li><a href="../constitution.html">Constitution</a></li>
+                <li><a href="../DTI 2025 Roadmap.html">2025 Roadmap</a></li>
+                <li><a href="../board.html">Be part of the team!</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Zorin OS</h2>
+        <p>DTI Score: 5.88/100</p>
+
+        <section>
+            <h3>Detailed Evaluation</h3>
+
+            <h4>1. Governance Transparency: 0/3</h4>
+            <ul>
+                <li>Availability of governance documents: No (0 points)</li>
+                <li>Detail of governance documents: Minimal (0 points)</li>
+                <li>Source: Zorin OS Website – no official governance documentation available.</li>
+            </ul>
+
+            <h4>2. Decision Making Transparency: 0/3</h4>
+            <ul>
+                <li>Documented decision-making process: No (0 points)</li>
+                <li>Accessibility of meeting minutes: Not available (0 points)</li>
+                <li>Source: Zorin OS Forum – no formal documentation found.</li>
+            </ul>
+
+            <h4>3. Economic Transparency: 0/4</h4>
+            <ul>
+                <li>Publication of financial statements: Not published (0 points)</li>
+                <li>Detail of financial statements: Minimal (0 points)</li>
+                <li>Note: Limited to pricing for Ultimate edition.</li>
+            </ul>
+
+            <h4>4. Economic Accessibility: 0/4</h4>
+            <ul>
+                <li>Access to financial reports: Not available (0 points)</li>
+                <li>Ease of access: Difficult (0 points)</li>
+                <li>Note: Financial data is not accessible beyond commercial pricing.</li>
+            </ul>
+
+            <h4>5. Source Code Accessibility: 2/4</h4>
+            <ul>
+                <li>Availability of source code: Partial (1 point)</li>
+                <li>Ease of access to source code: Moderate (1 point)</li>
+                <li>Source: Zorin OS GitHub – only some components available.</li>
+            </ul>
+
+            <h4>6. Public Roadmap Availability: 0/3</h4>
+            <ul>
+                <li>Public roadmap: No (0 points)</li>
+                <li>Detail of roadmap: Minimal (0 points)</li>
+                <li>Note: No clear development roadmap found.</li>
+            </ul>
+
+            <h4>7. Transparency in Code Review Processes: 0/3</h4>
+            <ul>
+                <li>Documentation of review processes: No (0 points)</li>
+                <li>Transparency of review processes: Low (0 points)</li>
+                <li>Note: Not publicly documented or visible.</li>
+            </ul>
+
+            <h4>8. Community Participation in Development: 0/4</h4>
+            <ul>
+                <li>Number of active contributors: Low (0 points)</li>
+                <li>Accessibility to development processes: Difficult (0 points)</li>
+                <li>Source: Zorin OS GitHub – limited contributions visible.</li>
+            </ul>
+
+            <h4>9. Impact of Governance Structure on Transparency: 0/6</h4>
+            <ul>
+                <li>Centralization of decision-making power: Highly centralized (0 points)</li>
+                <li>Control and balance mechanisms: Weak (0 points)</li>
+                <li>Influence of commercial entities on governance: Significant (0 points)</li>
+            </ul>
+
+            <p><strong>Final Score: 5.88/100</strong></p>
+        </section>
+
+        <section>
+            <h3>Concluding Analysis</h3>
+            <p>Zorin OS demonstrates limited transparency and accessibility across most of the evaluated areas.</p>
+
+            <strong>Strengths:</strong>
+            <ul>
+                <li>Partial accessibility of source code for some components.</li>
+            </ul>
+
+            <strong>Areas for Improvement:</strong>
+            <ul>
+                <li>Formal governance documentation and transparent decision-making processes.</li>
+                <li>Publication and accessibility of financial information.</li>
+                <li>Introduction of a public development roadmap.</li>
+                <li>Establishing structured code review processes.</li>
+                <li>Encouraging broader community participation in development.</li>
+                <li>Implementing control and balance mechanisms in governance.</li>
+                <li>Reducing commercial influence over project decisions.</li>
+            </ul>
+
+            <p>While Zorin OS has gained popularity for its user-friendly interface and appeal to users transitioning from Windows, it significantly lacks the formal structures of transparency expected in open-source projects. The strong emphasis on user experience appears to take precedence over governance and community participation.</p>
+
+            <p>This is reflected in its low transparency score of 5.88/100. Improving transparency practices would strengthen the project's position within the open-source ecosystem and enhance trust within its community.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Distro Transparency Index</p>
+    </footer>
+</body>
+</html>
