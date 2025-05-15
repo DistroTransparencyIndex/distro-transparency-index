@@ -73,11 +73,20 @@
             </ol>
         </section>
 
-        <section id="application-form">
-            <h2>Apply Now</h2>
-            <form action="submit_application.php" method="post">
-                <label for="name">Full Name:</label>
-                <input type="text" id="name" name="name" required>
+    <section id="application-form">
+    <h2>Apply Now</h2>
+
+    <p style="margin-bottom: 1em;">
+        <strong>You must read and accept the</strong>
+        <a href="Documents/DTI Governance Charter – 2025.pdf" target="_blank">
+            DTI Governance Charter – 2025
+        </a>
+        <strong>before submitting your application.</strong>
+    </p>
+
+    <form action="submit_application.php" method="post">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" required>
 
                 <label for="email">Email:</label>
                 <input type="email" id="email" name="email" required>
